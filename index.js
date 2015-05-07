@@ -23,9 +23,7 @@ io.on('connection', function(socket){
 	}, 10000);
 
 });
-
-
-
+//hello
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });
