@@ -5,4 +5,4 @@ var proxy   = require( 'http-proxy' ).createProxyServer;
 app.use(express.static(__dirname+'/www/'))
 app.listen(5000)
 
-//Mark reverse proxy stuff here
+//reverse proxy stuff here
